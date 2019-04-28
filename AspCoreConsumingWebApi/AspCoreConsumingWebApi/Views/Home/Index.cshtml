@@ -1,7 +1,39 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
 }
 
-<h2>Index</h2>
+<style>
+    input {
+        width:280px;
+        height:50px;
+        font-weight:bold;
+        font-size:15px;
+    }
+    @@media (max-width:768px) {
+        input {
+            min-width: 100%;
+        }
+    }
+</style>
+
+<!-- {"id":1, "gpio":0, "status":1} -->
+<br />
+<form action="/Home/SetLed" method="post">
+    <b>JsonString:</b><br />
+    <input type="text" name="model" value="" />
+    <input type="submit" name="action" value="ENVIAR" />
+    <hr />
+    <h3>Painel de Controles</h3>
+    @foreach (KeyValuePair<int, AspCoreModels.LedModel> item in Model)
+    {
+        if (item.Value.Status == 0)
+        {
+            <input type="submit" name="action" style="background-color:bisque;" value="@item.Value.Id - @item.Value.Desc [LIGAR]" />
+        }
+        else
+        {
+            <input type="submit" name="action" style="background-color:aquamarine;" value="@item.Value.Id - @item.Value.Desc [DESLIGAR]" />
+        }
+    }
+</form>
 
