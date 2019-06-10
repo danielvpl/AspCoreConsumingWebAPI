@@ -1,6 +1,7 @@
 ﻿using AspCoreConsumingWebApi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -20,6 +21,12 @@ namespace AspCoreConsumingWebApi
         {
             services.AddMvc();
             services.Configure<MySettingsModel>(Configuration.GetSection("MySettings"));
+
+            services.AddEntityFrameworkNpgsql()
+                .AddDbContext<AspCoreModels.ModelContext>(options => options.UseNpgsql(Configuration.GetConnectionString("LedModelsDB")));
+
+            services.AddEntityFrameworkNpgsql()
+               .AddDbContext<AspCoreModels.PlayItContext>(options => options.UseNpgsql(Configuration.GetConnectionString("PlayItBD")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

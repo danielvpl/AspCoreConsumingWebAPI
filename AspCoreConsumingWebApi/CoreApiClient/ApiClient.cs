@@ -43,6 +43,19 @@ namespace CoreApiClient
             var data = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Message<T>>(data);
         }
+
+        /// <summary>
+        /// Common method for making POST calls
+        /// </summary>
+        private async Task<Message<T>> PutAsync<T>(Uri requestUrl, T content)
+        {
+            addHeaders();
+            var response = await _httpClient.PutAsync(requestUrl.ToString(), CreateHttpContent<T>(content));
+            response.EnsureSuccessStatusCode();
+            var data = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<Message<T>>(data);
+        }
+
         private async Task<Message<T1>> PostAsync<T1, T2>(Uri requestUrl, T2 content)
         {
             addHeaders();

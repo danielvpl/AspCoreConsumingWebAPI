@@ -4,11 +4,12 @@
 
 <style>
     input {
-        width:280px;
-        height:50px;
-        font-weight:bold;
-        font-size:15px;
+        width: 280px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 15px;
     }
+
     @@media (max-width:768px) {
         input {
             min-width: 100%;
@@ -18,22 +19,45 @@
 
 <!-- {"id":1, "gpio":0, "status":1} -->
 <br />
-<form action="/Home/SetLed" method="post">
-    <b>JsonString:</b><br />
-    <input type="text" name="model" value="" />
-    <input type="submit" name="action" value="ENVIAR" />
-    <hr />
-    <h3>Painel de Controles</h3>
-    @foreach (KeyValuePair<int, AspCoreModels.LedModel> item in Model)
+@if (Model != null && ((IEnumerable<AspCoreModels.LedModel>)Model).Count<AspCoreModels.LedModel>() > 0)
+{
+    <h3>Controle Remoto:</h3>
+    foreach (AspCoreModels.LedModel item in Model)
     {
-        if (item.Value.Status == 0)
+        if (item.gpio == 12)
         {
-            <input type="submit" name="action" style="background-color:bisque;" value="@item.Value.Id - @item.Value.Desc [LIGAR]" />
+            if (item.status == 1)
+            {
+                <h1 style="color:red">Alerta de fumaça acionado!</h1>
+            }
         }
         else
         {
-            <input type="submit" name="action" style="background-color:aquamarine;" value="@item.Value.Id - @item.Value.Desc [DESLIGAR]" />
+            <form name="ledsform_@item.gpio" action="/AspCoreConsumingWebApi/Home/SetLed" method="post">
+                <!--<b>JsonString:</b><br />
+            <input type="text" name="model" value="" />
+            <input type="submit" name="btnsubmit" value="ENVIAR" />
+            <hr />-->
+                <input type="hidden" name="model" value="" />
+                <input type="hidden" name="id" value="PLSC-84-0D-8E-81-D5-3C" />
+                @if (item.status == 0)
+                {
+                    <input type="hidden" name="action" value="@item.gpio LIGAR" />
+                    <text>Desligado</text><br />
+                    <input type="submit" name="btn_@item.gpio" style="background-color:bisque;" value="@item.desc" />
+                }
+                else
+                {
+                    <input type="hidden" name="action" value="@item.gpio DESLIGAR" />
+                    <text>Ligado</text><br />
+                    <input type="submit" name="btn_@item.gpio" style="background-color:aquamarine;" value="@item.desc" />
+                }
+            </form>
         }
     }
-</form>
+}
+else
+{
+    <text>Servidor remoto offline.</text>
+}
 
