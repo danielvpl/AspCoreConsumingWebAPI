@@ -1,0 +1,14 @@
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.csprojAssemblyReference.cache
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.csproj.CoreCompileInputs.cache
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.AssemblyInfoInputs.cache
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.AssemblyInfo.cs
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\CoreApiClient.deps.json
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\CoreApiClient.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\AspCoreModels.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\AspCoreModels.pdb
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.csproj.CopyComplete
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\CoreApiClient.pdb
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\obj\Debug\netcoreapp2.0\CoreApiClient.pdb
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\CoreApiClient\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml

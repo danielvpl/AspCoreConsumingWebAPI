@@ -1,0 +1,12 @@
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\bin\Release\netcoreapp2.0\AspCoreModels.deps.json
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\bin\Release\netcoreapp2.0\AspCoreModels.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\bin\Release\netcoreapp2.0\AspCoreModels.pdb
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.csprojAssemblyReference.cache
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.csproj.CoreCompileInputs.cache
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.AssemblyInfoInputs.cache
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.AssemblyInfo.cs
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.csproj.CopyComplete
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.dll
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreModels\obj\Release\netcoreapp2.0\AspCoreModels.pdb

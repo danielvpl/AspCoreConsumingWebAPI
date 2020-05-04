@@ -1,0 +1,14 @@
+D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=AspCoreConsumingWebApi
+--content-root=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\Home\Index.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\LedModel\Create.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\LedModel\Delete.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\LedModel\Details.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\LedModel\Edit.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\LedModel\Index.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\Shared\_Layout.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\_ViewImports.cshtml
+--file=D:\Projetos\Projetos_PLS\AspCoreConsumingWebAPI\AspCoreConsumingWebApi\AspCoreConsumingWebApi\Views\_ViewStart.cshtml
